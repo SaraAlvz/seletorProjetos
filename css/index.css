@@ -4,27 +4,26 @@
 }
 
 #cabecalho{
-    width: 100v;
+    width: 100vw;
 }
 
 .corPreto{
-   background-image: linear-gradient(to right, #1e1f20, #323637, #474f4e, #616964, #808379)!important;
+    background-image:linear-gradient(to top, #00b2bb, #009da5, #00888f, #00747a, #006166)!important;
 }
-
 .corPreto a{
-    color: white;
+    color:white;
 }
 
 .corPreto a:hover{
-    color: orange;
+    color:rgb(0, 0, 0);
 }
 
 .corPreto a:active{
-    color: aqua;
+    color: #0a5f5b;
 }
 
 .corPreto a:focus{
-    color: orangered;
+    color: aqua;
 }
 
 body{
@@ -33,11 +32,11 @@ body{
 }
 
 #pagina1{
-    width: 100w;
-    height: auto;}
+    width: 100vw;
+    height: auto;
     /* display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex: 1;
-
+    flex: 1; */
+}
